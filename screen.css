@@ -1,4 +1,18 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.active {
+    border: 10px solid black;
+
 }
