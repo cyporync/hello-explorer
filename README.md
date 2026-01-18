@@ -1,2 +1,2 @@
-# Static HTML Boilerplate
-Basic HTML, CSS, and JavaScript setup for a simple website.
+# Earth and Moon
+Basic two-page site about the Earth and the Moon.
