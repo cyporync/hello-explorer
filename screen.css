@@ -1,9 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    background: #463730;
+    color: #EEE0CB;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
 nav {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
     list-style: none;
 }
 
@@ -12,7 +36,57 @@ img {
     max-width: 100%;
 }
 
-.active {
-    border: 10px solid black;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+p {
+    width: 70%;
+    line-height: 1.5em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#earth-container {
+    width: 300;
+    height: 300; 
+}
+
+#earth {
+    cx: 150;
+    cy: 150;
+    r: 140;
+    fill: #BAA898;
+    stroke-width: 5;
+}
+
+#moon-container {
+    width: 150;
+    height: 150;
+}
+
+#moon {
+    cx: 75;
+    cy: 75;
+    r: 65;
+    fill: #EEE0CB;
+    stroke-width: 5;
+}
+
+.active-earth {
+    stroke: #87705A;
+}
+
+.active-moon {
+    stroke: #DCBF93;
+}
+
+.inactive-earth {
+    stroke: #BAA898;
+}
+
+.inactive-moon {
+    stroke: #EEE0CB;
 }

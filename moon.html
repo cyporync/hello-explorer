@@ -13,21 +13,36 @@
   <nav>
     <ul>
       <li>
-          <a href="earth.html">
-            <svg width="300" height="300">
-              <circle cx="150" cy="150" r="140" stroke="blue" stroke-width="4" fill="blue"/>
-            </svg>
-          </a>
+        <a href="index.html">
+          <svg id="earth-container" width="300" height="300">
+            <circle id="earth" class="inactive-earth"/>
+          </svg>
+        </a>
       </li>
       <li>
         <a href="moon.html">
-          <svg width="150" height="150">
-            <circle class="active" cx="75" cy="75" r="65" stroke="black" stroke-width="4" fill="darkgray" />
+          <svg id="moon-container" width="150" height="150">
+            <circle id="moon" class="active-moon"/>
           </svg>
         </a>
       </li>
     </ul>
   </nav>
+  <main>
+    <!-- Model: ChatGPT 5.2 -->
+    <!-- Prompt: Write a paragraph description of the planet Earth's Moon. Make it specific and informative. Include scientific facts. Make it interesting. -->
+    <p>Earth’s Moon is the fifth-largest natural satellite in the solar system and the only celestial body beyond Earth
+      that humans have visited, with the first landing occurring in 1969 during NASA’s Apollo 11 mission. It formed
+      about 4.5 billion years ago, likely from debris created by a massive collision between early Earth and a
+      Mars-sized object called Theia. The Moon is about 3,474 kilometers (2,159 miles) in diameter—roughly one-quarter
+      the size of Earth—and has a gravitational pull about one-sixth as strong, allowing astronauts to leap high above
+      its surface. Its surface is covered in impact craters, ancient lava plains called maria, and a thick layer of fine
+      dust known as regolith. The Moon is tidally locked to Earth, meaning the same side always faces our planet, and it
+      plays a crucial role in stabilizing Earth’s axial tilt and driving ocean tides. With no substantial atmosphere,
+      the Moon experiences extreme temperature swings, ranging from about −173°C (−280°F) at night to 127°C (260°F)
+      during the day, making it a harsh yet scientifically invaluable window into the early history of the solar system.
+      🌙</p>
+  </main>
   <script src="index.js"></script>
 </body>
 
